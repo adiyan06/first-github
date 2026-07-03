@@ -1,13 +1,38 @@
 <html>
     <a href="amazon.com" target="_blank">back to amazon</a>
-    <p>Nike black running shoes</p>
-    <p>$39-in stock.</p>
-     <p>Free deliver tomorrow</p>
+    <h3>Nike black running shoes</h3>
+    <p class="stock">$39-in stock.</p>
+     <p>Free delivery tomorrow</p>
 
 <head>
-    <button>Add to cart</button><button>Bu now</button>
+    <button class="add">
+        Add to cart
+    </button>
+    <button class="kino">
+        Buy now
+    </button>
     <br>
     <style>
+        .stock{
+            color:green;
+        }
+        .kino {
+                background-color: rgb(170, 69, 0);
+                height: 36px;
+                width:150px;
+                border:none;
+                border-radius:80px;
+                cursor:pointer;
+        }
+        .add{
+            background-color: rgb(255, 216, 20);
+                margin:5px;
+                height: 36px;
+                width:150px;
+                border:none;
+                border-radius:80px;
+                cursor:pointer;
+        }
         .subscribe-button {
             background-color: rgb(199, 2, 2);
             color:whitesmoke;
