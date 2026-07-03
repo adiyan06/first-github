@@ -1,5 +1,6 @@
-
+1 each time for each projectwrite git init
 git init
+2.git add . to add a file or folder
 git add .
 git commit -m "first commit"
 git branch -M main
