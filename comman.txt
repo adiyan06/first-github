@@ -2,7 +2,7 @@
 git init
 2.git add . to add a file or folder
 git add .
-git commit -m "first commit"
+git commit -m "first commit" 
 git branch -M main
 git remote add origin https://github.com/adiyan06/first-github.git
 git push -u origin main
